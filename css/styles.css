@@ -403,12 +403,12 @@ body {
   color: var(--subtle-text);
 }
 
-.list_img_customers_a :hover {
+.list_img_customers_a:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
 
-.list_img_customers_a :focus {
+.list_img_customers_a:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
