@@ -336,11 +336,11 @@ body {
 }
 
 .soc_a :hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .soc_a :focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icon_social {
@@ -456,11 +456,11 @@ body {
 }
 
 .icon_a:hover {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .icon_a:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .list_footer {
