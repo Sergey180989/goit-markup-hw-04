@@ -111,6 +111,7 @@ body {
 .container-nav {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .container-head {
@@ -289,10 +290,25 @@ body {
   text-align: center;
 }
 
+.section5 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container_customers {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .footer-section {
   background-color: var(--dark);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer_div {
+  margin-right: 120px;
 }
 
 .footer-container {
@@ -328,13 +344,6 @@ body {
 
 .list_footer {
   display: flexbox;
-}
-
-.container_customers {
-  max-width: 1158px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 120px 15px;
 }
 
 .icon_customers {
