@@ -414,6 +414,8 @@ body {
 }
 
 .icon_customer {
+  margin-left: 32px;
+  margin-top: 12px;
   fill: currentColor;
 }
 
