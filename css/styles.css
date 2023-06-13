@@ -282,6 +282,7 @@ body {
   display: flex;
   gap: 24px;
   padding: 32px 0;
+  justify-content: center;
 }
 
 .list_soc {
@@ -291,6 +292,15 @@ body {
 }
 
 .icon_li_footer {
+  width: 40px;
+  height: 40px;
+}
+
+.div_team {
+  padding: 32px 0;
+}
+
+.li_soc {
   width: 40px;
   height: 40px;
 }
@@ -314,8 +324,8 @@ body {
 }
 
 .icon_social {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   fill: #f4f4fd;
 }
 
