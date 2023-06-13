@@ -143,6 +143,7 @@ body {
   background: var(--dark);
   padding: 188px 0;
   box-shadow: blur;
+
   background-image: linear-gradient(
       var(--hero-background),
       var(--hero-background)
@@ -150,7 +151,9 @@ body {
     url(/images/hero_people_office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .container-main {
@@ -186,6 +189,7 @@ body {
   margin: 0 auto;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:focus {
