@@ -287,6 +287,7 @@ body {
 
 .list_soc {
   display: flex;
+  padding-top: 8px;
   justify-content: center;
   gap: 24px;
 }
@@ -332,6 +333,10 @@ body {
 .our_team {
   background: var(--light);
   padding: 120px 0;
+}
+
+.our_team_soc {
+  padding: 32px 0;
 }
 
 .our_team_card {
@@ -432,11 +437,11 @@ body {
 }
 
 .icon_a:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icon_a:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .list_footer {
@@ -563,13 +568,11 @@ body {
 .port_link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
 }
 
 .port_link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
 }
 
 .img_sec {
