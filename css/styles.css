@@ -311,16 +311,16 @@ body {
   gap: 24px;
 }
 
-.icon_li_footer {
-  width: 40px;
-  height: 40px;
-}
-
 .div_team {
   padding: 32px 0;
 }
 
 .li_soc {
+  width: 40px;
+  height: 40px;
+}
+
+.icon_li_footer {
   width: 40px;
   height: 40px;
 }
@@ -336,11 +336,11 @@ body {
 }
 
 .soc_a :hover {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .soc_a :focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .icon_social {
