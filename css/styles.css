@@ -70,6 +70,7 @@ body {
 
 .current {
   color: #404bbf;
+  position: relative;
 }
 
 .logo_header {
