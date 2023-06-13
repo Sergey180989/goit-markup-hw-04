@@ -336,6 +336,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .icon_list1 {
@@ -343,6 +344,29 @@ body {
   list-style: none;
   display: flex;
   gap: 16px;
+}
+
+.icon_li {
+  width: 40px;
+  height: 40px;
+}
+
+.icon_a {
+  width: 100%;
+  height: 100%;
+  background-color: (--primary-brand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_a:hover {
+  background-color: #31d0aa;
+}
+
+.icon_a:focus {
+  background-color: #31d0aa;
 }
 
 .list_footer {
