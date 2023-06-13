@@ -142,6 +142,15 @@ body {
 .main {
   background: var(--dark);
   padding: 188px 0;
+  box-shadow: blur;
+  background-image: linear-gradient(
+      var(--hero-background),
+      var(--hero-background)
+    ),
+    url(/images/hero_people_office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .container-main {
@@ -239,6 +248,12 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.icon_list {
+  margin-top: 8px;
+  display: flex;
+  gap: 24px;
+}
+
 .our_team {
   background: var(--light);
   padding: 120px 0;
@@ -276,12 +291,62 @@ body {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: auto;
+  align-items: baseline;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light);
   max-width: 264px;
+}
+
+.icon_list_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.icon_list1 {
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.list_footer {
+  display: flexbox;
+}
+
+.container_customers {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 120px 15px;
+}
+
+.icon_customers {
+  border: #434455;
+  border-radius: 4;
+}
+
+.icon_list_footer {
+  box-sizing: border-box;
+  margin-left: 120px;
+}
+
+.list_img_customers {
+  gap: 24px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
 .logo {
@@ -383,4 +448,36 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 20, 35, 0.4);
+}
+
+.modal {
+  position: absolute;
+  top: 80px;
+  left: calc((100% - 408px) / 2);
+  transform: translate(-50% -50%);
+  width: 408px;
+  min-height: 584px;
+  background-color: #eceded;
+  border-radius: 5px;
+}
+
+.modal-btn {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #999999;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
 }
