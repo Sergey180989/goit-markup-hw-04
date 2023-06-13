@@ -304,7 +304,8 @@ body {
 }
 
 .icon_social {
-  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
 
 .our_team {
@@ -319,11 +320,6 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-.our_team_soc {
-  padding: 32px 0;
-}
-                        <div class="our_team_soc
 
 .our_team_text {
   padding: 32px 16px;
@@ -391,7 +387,7 @@ body {
   margin-bottom: 16px;
 }
 
-.icon_list1 {
+.icon_lists {
   margin-top: 16px;
   list-style: none;
   display: flex;
