@@ -373,11 +373,11 @@ body {
   justify-content: center;
 }
 
-.soc_a :hover {
+.soc_a:hover {
   background-color: #404bbf;
 }
 
-.soc_a :focus {
+.soc_a:focus {
   background-color: #404bbf;
 }
 
