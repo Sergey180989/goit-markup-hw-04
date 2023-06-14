@@ -166,7 +166,8 @@ body {
   background: var(--dark);
   padding: 188px 0;
   box-shadow: blur;
-
+  margin-right: auto;
+  margin-left: auto;
   background-image: linear-gradient(
       var(--hero-background),
       var(--hero-background)
@@ -355,6 +356,7 @@ body {
   padding-top: 8px;
   justify-content: center;
   gap: 24px;
+  list-style-type: none;
 }
 
 .li_soc {
@@ -475,7 +477,7 @@ body {
 
 .icon_list_footer {
   box-sizing: border-box;
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .logo {
