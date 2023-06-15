@@ -172,7 +172,7 @@ body {
       var(--hero-background),
       var(--hero-background)
     ),
-    url(/images/hero_people_office.jpg);
+    url(../images/hero_people_office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -251,7 +251,7 @@ body {
   margin-bottom: 8px;
 }
 
-.icon_advantages {
+icon_advantages {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -349,11 +349,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .list_soc {
   display: flex;
-  padding-top: 8px;
+
   justify-content: center;
   gap: 24px;
   list-style-type: none;
